@@ -2,7 +2,18 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, Install the node modules
+
+```bash
+npm install
+# or
+yarn
+```
+
+add .env file
+NEXT_PUBLIC_BASE_API=http://localhost:8000/api
+
+Run the development server:
 
 ```bash
 npm run dev
